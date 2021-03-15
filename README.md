@@ -5,3 +5,5 @@ Berisikan kumpulan tugas-tugas Pemrograman Berbasis Framework yang diarsipkan da
 Link video youtube minggu ke-4 : [Klik Disini](https://youtu.be/yFvBXJfCqcI)
 
 Link video youtube minggu ke-5 : [Klik Disini](https://youtu.be/_zlpwrWUsGw)
+
+Link video youtube minggu ke-5 : [Klik Disini](https://youtu.be/eYMzx9nGAFg)
