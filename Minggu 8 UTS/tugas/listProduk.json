@@ -1,0 +1,74 @@
+{
+  "barang": [
+    {
+      "id": 1,
+      "namaproduk": "Philips Digital Rice Cooker 1.8L - Fuzzy Logic Bakuhanseki HD4515/33",
+      "harga": 669000,
+      "gambar": "https://th.bing.com/th/id/R33c023d93bcb445b51c1f570d251f905?rik=LZlgz%2feVc9hHhg&pid=ImgRaw",
+      "stock": 1
+    },
+    {
+      "id": 2,
+      "namaproduk": "Philips Rice Cooker 2L - Premium Blue HD3131/31",
+      "harga": 599000,
+      "gambar": "https://img20.jd.id/Indonesia/s400x400_/amZzL3Q1NS8yNzgvMjM2ODQyNDExNy82MTkxMS85YWUwNzAzMi81ZmFmODljZU40ZjRmNGUxYQ.jpg",
+      "stock": 1
+    },
+    {
+      "id": 3,
+      "namaproduk": "Rice Cooker / Magic Com Cosmos CRJ-520 1.8L",
+      "harga": 99000,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/7/17/147170/147170_37e3f765-290e-456f-9fd8-be727fc21728.jpg",
+      "stock": 1
+    },
+    {
+      "id": 4,
+      "namaproduk": "Philips HD4515 HD 4515 Rice Cooker Digital 1.8 Liter Fuzzy Logic HD451",
+      "harga": 630000,
+      "gambar": "https://cf.shopee.co.id/file/33c023d93bcb445b51c1f570d251f905",
+      "stock": 1
+    },
+    {
+      "id": 5,
+      "namaproduk": "Smart Chef low carbo Rice cooker pressure cooker",
+      "harga": 1490000,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/VqbcmM/2020/11/25/d39ef466-d88e-4c52-a9c3-3a6a0684489f.jpg",
+      "stock": 1
+    },
+    {
+      "id": 6,
+      "namaproduk": "Tefal Easy Rice RK7321 - Rice Cooker",
+      "harga": 899000,
+      "gambar": "https://th.bing.com/th/id/OIP.-HRADY-eQfVW9dmvogrRsgHaH1?pid=ImgDet&rs=1",
+      "stock": 1
+    },
+    {
+      "id": 7,
+      "namaproduk": "Rice Cooker Sharp KS-N18MG Penanak Nasi Kapasitas 1.8 Liter - Silver",
+      "harga": 24500,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/2/16/1954428/1954428_c8d3e6b1-9f25-4759-821d-740b609b752e_700_700.jpg",
+      "stock": 1
+    },
+    {
+      "id": 8,
+      "namaproduk": "Miyako Magic Com MCM 508 SBC - Black - [1,8 Ltr]",
+      "harga": 220000,
+      "gambar": "https://cf.shopee.co.id/file/e62fb039b08d3a6fea5b7f9dc5e16c90",
+      "stock": 1
+    },
+    {
+      "id": 9,
+      "namaproduk": "MIYAKO PSG-607 Multi Cooker 0.63L / Rice Cooker Mini Serbaguna",
+      "harga": 220000,
+      "gambar": "https://ecs7.tokopedia.net/img/cache/700/product-1/2020/9/30/3178902/3178902_2ec1a711-012a-45d3-bbcf-7d24696e7bdc_600_600",
+      "stock": 1
+    },
+    {
+      "id": 10,
+      "namaproduk": "Starco Electric Lunch Box Mini/Mini Rice Cooker Multifungsi 2 Tingkat - Merah Muda",
+      "harga": 220000,
+      "gambar": "https://th.bing.com/th/id/OIP.66qDf0a-nc5xEo129e_sywHaHa?pid=ImgDet&rs=1",
+      "stock": 1
+    }
+  ]
+}

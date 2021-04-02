@@ -1,0 +1,87 @@
+.artikel{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.gambar-artikel{
+    height: 125px;
+    width: 130px;
+    margin-right: 20px;
+    border: 1px groove blue;
+    border-radius: 12px;
+    border-width: thin;
+    vertical-align: top;
+}
+
+.gambar-artikel img{
+    width: 95px;
+    height: 95px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: auto;
+
+}
+
+.kiri{
+    float: left;
+    padding: 20px;
+
+}
+
+.kanan{
+    float: left;
+    padding: 15px;
+    width: 65%;
+}
+
+.btn{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: #22a4cf;
+    color: white;
+    border: white 3px solid;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 10px;
+
+}
+
+
+.konten-artikel{
+    flex: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border:solid 3px blue
+}
+
+.konten-artikel div.judul-artikel{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.konten-artikel p.isi-artikel{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#sidebar{
+    background-color: aquamarine;
+}
+
+.container1{
+    margin-left: 550px;
+    margin-top: 12px;
+    margin-bottom: auto;
+}
+
+.profil{
+    width: 400px;
+    height: 400px;
+}

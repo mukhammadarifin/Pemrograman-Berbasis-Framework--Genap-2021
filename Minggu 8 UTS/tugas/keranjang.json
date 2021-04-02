@@ -1,0 +1,40 @@
+{
+  "keranjang": [
+    {
+      "id": 1617292229869,
+      "namaproduk": "Philips Digital Rice Cooker 1.8L - Fuzzy Logic Bakuhanseki HD4515/33",
+      "harga": 669000,
+      "stock": 1
+    },
+    {
+      "id": 1617292231276,
+      "namaproduk": "Philips Digital Rice Cooker 1.8L - Fuzzy Logic Bakuhanseki HD4515/33",
+      "harga": 669000,
+      "stock": 1
+    },
+    {
+      "id": 1617292232920,
+      "namaproduk": "Philips Digital Rice Cooker 1.8L - Fuzzy Logic Bakuhanseki HD4515/33",
+      "harga": 669000,
+      "stock": 1
+    },
+    {
+      "id": 1617292235016,
+      "namaproduk": "Philips Rice Cooker 2L - Premium Blue HD3131/31",
+      "harga": 599000,
+      "stock": 1
+    },
+    {
+      "id": 1617374701638,
+      "namaproduk": "MIYAKO PSG-607 Multi Cooker 0.63L / Rice Cooker Mini Serbaguna",
+      "harga": 220000,
+      "stock": 1
+    },
+    {
+      "id": 1617374706320,
+      "namaproduk": "MIYAKO PSG-607 Multi Cooker 0.63L / Rice Cooker Mini Serbaguna",
+      "harga": 220000,
+      "stock": 1
+    }
+  ]
+}
