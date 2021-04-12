@@ -15,7 +15,7 @@ class BlogPost extends Component{
     }
 
     ambilDataDariServerAPI = () => {
-        API.getNewBlog().then(result => {
+        API.getNewsBlog().then(result => {
            this.setState({
                 listArtikel: result
            })
@@ -34,11 +34,10 @@ class BlogPost extends Component{
     }
 
     handleHapusArtikel = (data) => {
-        fetch(`http://localhost:3001/posts/${data}`, {method: 'DELETE'})
-            .then(res => {
-                this.ambilDataDariServerAPI()
-            })
-    }
+        // function yang meng-handle button action hapus data
+        API.deleteNewsBlog(data);
+        this.ambilDataDariServerAPI();
+      };
 
     handleTambahArtikel = (event) => {
         let formInsertArtikel = {...this.state.insertArtikel};
