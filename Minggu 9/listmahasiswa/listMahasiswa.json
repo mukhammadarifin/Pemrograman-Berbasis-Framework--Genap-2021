@@ -1,0 +1,22 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nim": 2,
+      "nama": "alan perdhana timor",
+      "alamat": "Magersari mojokerto jawa timur",
+      "telfon": "08764313323",
+      "angkatan": "2018",
+      "status": "aktif"
+    },
+    {
+      "id": 1614601697101,
+      "nim": "1841720128",
+      "nama": "Mukhammad Arifin",
+      "alamat": "Jl. Sekar Putih, Dsn. Alkmar, Kecamatan Purwosari, Kab. Pasuruan",
+      "telfon": "089501934978",
+      "angkatan": "2018",
+      "status": "Lajang"
+    }
+  ]
+}
