@@ -1,5 +1,7 @@
 import React, {useState, useContext} from "react";
 import {AuthContext} from "./index";
+import firebase from "firebase";
+import googleSignin from "./googleSignin";
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -10,7 +12,15 @@ const Login = () => {
     const handleForm = e => {
         e.preventDefault();
         console.log(Auth);
-        Auth.setLoggedIn(true);
+        firebase
+            .auth()
+            .signInWithEmailAndPassword(email, password)
+            .then(res => {
+                if (res.user) Auth.setLoggedIn(true);
+            })
+            .catch(e => {
+                setErrors(e.message);
+            })
     };
 
     return (
@@ -32,13 +42,13 @@ const Login = () => {
                     placeholder="password"
                 />
                 <hr />
-                <buton class="googleBtn" type="button">
+                <button class="googleBtn" type="button" onClick={googleSignin}>
                     <img
-                        src="https:upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
                         alt="logo"
                     />
                     Login With Google
-                </buton>
+                </button>
                 <button type="submit">Login</button>
                 <span>{error}</span>
             </form>
