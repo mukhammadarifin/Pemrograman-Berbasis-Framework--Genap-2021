@@ -6,6 +6,7 @@ import Header from "./Header.js";
 import "./style.css";
 import firebase from "firebase";
 import firebaseConfig from "./firebase.config";
+import firebase from './firebaseConfig';
 
 firebase.initializeApp(firebaseConfig);
 
