@@ -2195,7 +2195,7 @@ var ArticleCreate = /*#__PURE__*/function (_Component) {
           onCancel: _this2.hideAlert(),
           timeout: 2000,
           confirmBtnText: "Oke Siap",
-          children: "Created article successfully"
+          children: "Memasukkan data pasien berhasil"
         });
       };
 
@@ -2266,7 +2266,7 @@ var ArticleCreate = /*#__PURE__*/function (_Component) {
               className: "card",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "card-header",
-                children: "Create new project"
+                children: "Tambah Data Pasien"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "card-body",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
@@ -2551,7 +2551,7 @@ var ArticleEdit = /*#__PURE__*/function (_Component) {
               className: "card",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "card-header",
-                children: "Create new project"
+                children: "Edit Data Pasien"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "card-body",
                 children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("form", {
@@ -2740,10 +2740,10 @@ var ArticleIndex = /*#__PURE__*/function (_Component) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)((react_bootstrap_sweetalert__WEBPACK_IMPORTED_MODULE_2___default()), {
           warning: true,
           showCancel: true,
-          confirmBtnText: "Hapus Deh",
-          cancelBtnText: "Nggak Jadi",
-          confirmBtnBsStyle: "default",
-          cancelBtnBsStyle: "danger",
+          confirmBtnText: "Hapus",
+          cancelBtnText: "Tidak",
+          confirmBtnBsStyle: "danger",
+          cancelBtnBsStyle: "default",
           title: "Tunggu ...",
           onConfirm: function onConfirm() {
             return _this3.deleteItem(id);
@@ -2752,7 +2752,7 @@ var ArticleIndex = /*#__PURE__*/function (_Component) {
             return _this3.hideAlert();
           },
           focusCancelBtn: true,
-          children: "Kalau udah dihapus, nggak bakal balik lagi."
+          children: "Data yang telah dihapus tidak akan bisa dipulihkan lagi, yakin ingin menghapus data ini?"
         });
       };
 
@@ -2820,13 +2820,13 @@ var ArticleIndex = /*#__PURE__*/function (_Component) {
               className: "card",
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
                 className: "card-header",
-                children: "All Article"
+                children: "Data Pasien"
               }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                 className: "card-body",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Link, {
                   className: "btn btn-primary btn-sm mb-3",
                   to: "/create",
-                  children: "Create new article"
+                  children: "Tambah Data Pasien"
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
                   className: "table-responsive",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("table", {
@@ -3058,7 +3058,7 @@ var Header = function Header() {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
         className: "navbar-brand",
         to: "/",
-        children: "Ilmu Coding"
+        children: "Rumah Sakit Permata"
       })
     })
   });

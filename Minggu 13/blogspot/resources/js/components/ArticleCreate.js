@@ -38,7 +38,7 @@ class ArticleCreate extends Component {
                 timeout={2000}
                 confirmBtnText="Oke Siap"
                 >
-                Created article successfully
+                Memasukkan data pasien berhasil
             </SweetAlert>
         );
         this.setState({
@@ -93,7 +93,7 @@ class ArticleCreate extends Component {
             <div className='row justify-content-center'>
               <div className='col-md-6'>
                 <div className='card'>
-                  <div className='card-header'>Create new project</div>
+                  <div className='card-header'>Tambah Data Pasien</div>
                   <div className='card-body'>
                     <form onSubmit={this.handleCreateNewArticle}>
                       <div className='form-group'>

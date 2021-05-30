@@ -119,7 +119,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
             <div className='row justify-content-center'>
               <div className='col-md-6'>
                 <div className='card'>
-                  <div className='card-header'>Create new project</div>
+                  <div className='card-header'>Edit Data Pasien</div>
                   <div className='card-body'>
                     <form onSubmit={this.handleUpdateArticle}>
                       <div className='form-group'>

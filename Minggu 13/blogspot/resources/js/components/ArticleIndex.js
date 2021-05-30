@@ -35,16 +35,16 @@ class ArticleIndex extends Component {
             <SweetAlert
                 warning
                 showCancel
-                confirmBtnText="Hapus Deh"
-                cancelBtnText="Nggak Jadi"
-                confirmBtnBsStyle="default"
-                cancelBtnBsStyle="danger"
+                confirmBtnText="Hapus"
+                cancelBtnText="Tidak"
+                confirmBtnBsStyle="danger"
+                cancelBtnBsStyle="default"
                 title="Tunggu ..."
                 onConfirm={() => this.deleteItem(id)}
                 onCancel={() => this.hideAlert()}
                 focusCancelBtn
                 >
-                Kalau udah dihapus, nggak bakal balik lagi.
+                Data yang telah dihapus tidak akan bisa dipulihkan lagi, yakin ingin menghapus data ini?
             </SweetAlert>
         );
         this.setState({
@@ -92,10 +92,10 @@ class ArticleIndex extends Component {
             <div className='row justify-content-center'>
               <div className='col-md-8'>
                 <div className='card'>
-                  <div className='card-header'>All Article</div>
+                  <div className='card-header'>Data Pasien</div>
                   <div className='card-body'>
                     <Link className='btn btn-primary btn-sm mb-3' to='/create'>
-                      Create new article
+                      Tambah Data Pasien
                     </Link>
                     <div className="table-responsive">
                         <table className="table table-bordered table-hover">
